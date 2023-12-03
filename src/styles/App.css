@@ -1,0 +1,130 @@
+.App {
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+table {
+    width: calc(100% - 40px);
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr.selected td {
+    background-color: #e0e0e0;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.page-button {
+    background-color: #3498db;
+    color: white;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.search-bar input {
+    width: 250px;
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 16px;
+    color: gray;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.edit-button {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.save-button {
+    background-color: #3498db;
+    color: white;
+}
+
+.select-all {
+    background-color: rgb(43, 170, 71);
+    color: white;
+}
+
+.first-button {
+    background-color: rgb(78, 74, 74);
+    color: white;
+}
+
+.Last-button {
+    background-color: rgb(78, 74, 74);
+    color: white;
+}
+
+.Next-button {
+    background-color: gray;
+    color: white;
+}
+
+.Previous-button {
+    background-color: gray;
+    color: white;
+}
+
+.Pagination-div {
+    margin-bottom: 10px;
+}
+
+.page-button {
+    background-color: #3498db;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.page-button.active {
+    border-color: black;
+}
